@@ -1,0 +1,104 @@
+ 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网页</title>
+    <style>
+        /* 基础样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的网站</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于</a></li>
+            <li><a href="#services">服务</a></li>
+            <li><a href="#contact">联系</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>首页</h2>
+            <p>这里是网站的主要内容区域。</p>
+        </section>
+        <section id="about">
+            <h2>关于我们</h2>
+            <p>这里可以介绍网站或个人的相关信息。</p>
+        </section>
+        <section id="services="services">
+            <h2>我们的服务</h2>
+            <p>这里可以列出提供的服务或产品。</p>
+        </section>
+        <section id="contact">
+            <h2>联系我们</h2>
+            <form>
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">邮箱:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">留言:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <button type="submit">提交</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 我的网站. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
+ 
